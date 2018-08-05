@@ -15,6 +15,7 @@ The following contents can be found in [keras-optimizers](https://keras.io/optim
 ### Adamax
 ### Nadam
 ## 2 - code and programming
++ How to numerically compute derivatives?
 ## 3 - Optimization framework
 ### CVXOPT
 + [CVXOPT](http://cvxopt.org/) is a free software package for convex optimization based on the Python programming language, developed by Martin Andersen, Joachim Dahl, and Lieven Vandenberghe.
