@@ -6,6 +6,7 @@ The following contents can be found in [keras-optimizers](https://keras.io/optim
 + paper - ""
 ### RMSprop
 + [Slides](http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf) by Geoffrey Hinton.
+### Nestrov
 ### Adagrad
 + [Paper-2011](http://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf) published on Journal of Machine Learning Research, cited by 3178 (It's August 5, 2018.).
 ### Adadelta
