@@ -1,2 +1,15 @@
 # optimization
 Intro to numerical optimization method: papers recommendation and code implementation.
+The following contents can be found in [keras-optimizers](https://keras.io/optimizers/#sgd)
+## SGD
++ paper - ""
+## RMSprop
++ [Slides](http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf) by Geoffrey Hinton.
+## Adagrad
++ [Paper-2011](http://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf) published on Journal of Machine Learning Research, cited by 3178 (It's August 5, 2018.).
+## Adadelta
++ [Paper-2012](https://arxiv.org/abs/1212.5701) on Arxiv, cited by 1960 (It's August 5, 2018.).
+## Adam
++ [Adam-2014](https://arxiv.org/abs/1412.6980) and [its convergence-2018](https://openreview.net/forum?id=ryQu7f-RZ), have been cited by 11125 and 31, respectively.
+## Adamax
+## Nadam
