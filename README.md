@@ -27,6 +27,7 @@ The following contents can be found in [keras-optimizers](https://keras.io/optim
 + [Variables](https://www.cvxpy.org/tutorial/intro/index.html) can be scalars, vectors, or matrices, meaning they are 0, 1, or 2 dimensional.
 + [library of examples](http://www.cvxpy.org/examples/index.html)
 + must follow [DCP rules](http://cvxr.com/cvx/doc/dcp.html)
++ [Can cvxpy handle Geometric Programming?](https://github.com/cvxgrp/cvxpy/issues/32) We'll add log_sum_exp soon and then you'll be able to write GP's in their convex formulation. But there won't be a GP mode for the foreseeable future (answered in 2014).
 ### CVX
 + [CVX](http://cvxr.com/cvx/) is a Matlab-based modeling system for convex optimization, developed by Michael Grant and Stephen Boyd. 
 + [Variables](http://cvxr.com/cvx/doc/basics.html) can be real or complex scalars, vectors, matrices, or n-dimensional arrays.
