@@ -18,7 +18,8 @@ The following contents can be found in [keras-optimizers](https://keras.io/optim
 + [CVXOPT](http://cvxopt.org/) is a free software package for convex optimization based on the Python programming language, developed by Martin Andersen, Joachim Dahl, and Lieven Vandenberghe.
 + [variables](http://cvxopt.org/userguide/modeling.html#variables)- It seems like variables can only be vector variable, from official guide.
 ### CVXPY
-+ [CVXPY](http://www.cvxpy.org/)-[(github-cvxgrp-cvxpy)](https://github.com/cvxgrp/cvxpy) is a Python-embedded modeling language for convex optimization problems, Steven Diamond, Eric Chu, Akshay Agrawal and Stephen Boyd.
++ [CVXPY](http://www.cvxpy.org/) is a Python-embedded modeling language for convex optimization problems, Steven Diamond, Eric Chu, Akshay Agrawal and Stephen Boyd.
++ -[github for cvxpy](https://github.com/cvxgrp/cvxpy)
 + [Variables](https://www.cvxpy.org/tutorial/intro/index.html) can be scalars, vectors, or matrices, meaning they are 0, 1, or 2 dimensional.
 ### CVX
 + [CVX](http://cvxr.com/cvx/) is a Matlab-based modeling system for convex optimization, developed by Michael Grant and Stephen Boyd. 
