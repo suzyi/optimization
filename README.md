@@ -33,3 +33,6 @@ The following contents can be found in [keras-optimizers](https://keras.io/optim
 + [Variables](http://cvxr.com/cvx/doc/basics.html) can be real or complex scalars, vectors, matrices, or n-dimensional arrays.
 + must follow [DCP rules](http://cvxr.com/cvx/doc/dcp.html).
 + [Geometric programmings](http://cvxr.com/cvx/doc/gp.html) are special mathematical programs that can be converted to convex form using a change of variables. The convex form of GPs can be expressed as DCPs, but CVX also provides a special mode that allows a GP to be specified in its native form. CVX will automatically perform the necessary conversion, compute a numerical solution, and translate the results back to the original problem.
+### openopt
++ [Openopt](http://openopt.org) solves general (smooth and nonsmooth) nonlinear programs, including problems with integer constraints. Unlike CVXOPT, it has no software for solving semidefinite programs. The solvers were all written by Dmitrey Kroshko himself and don't have a long history, so testing was probably limited. OpenOpt itself does _not- interface to general third party solvers.
++ [Github for openopt](https://github.com/troyshu/openopt)
