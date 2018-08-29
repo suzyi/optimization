@@ -22,12 +22,17 @@ The following contents can be found in [keras-optimizers](https://keras.io/optim
 + [CVXOPT](http://cvxopt.org/) is a free software package for convex optimization based on the Python programming language, developed by Martin Andersen, Joachim Dahl, and Lieven Vandenberghe.
 + [variables](http://cvxopt.org/userguide/modeling.html#variables)- It seems like variables can only be vector variable, from official guide.
 ### CVXPY
+#### intro to cvxpy
 + [CVXPY](http://www.cvxpy.org/) is a Python-embedded modeling language for convex optimization problems, Steven Diamond, Eric Chu, Akshay Agrawal and Stephen Boyd.
 + [Github for cvxpy](https://github.com/cvxgrp/cvxpy)
 + [Variables](https://www.cvxpy.org/tutorial/intro/index.html) can be scalars, vectors, or matrices, meaning they are 0, 1, or 2 dimensional.
 + [Library of examples](http://www.cvxpy.org/examples/index.html)
 + must follow [DCP rules](http://cvxr.com/cvx/doc/dcp.html).
 + [Geometric programming](https://github.com/cvxgrp/cvxpy/issues/32). We'll add log_sum_exp soon and then you'll be able to write GP's in their convex formulation. But there won't be a GP mode for the foreseeable future (answered in 2014).
+#### installation
++ Step 1 - You'd better have cvxpy installed in a virtual environment.
++ Step 2 - You need to have `numpy` and `scipy` in stalled in your virtual environment in advance.
++ Step 3 - `pip install cvxpy`
 ### CVX
 + [CVX](http://cvxr.com/cvx/) is a Matlab-based modeling system for convex optimization, developed by Michael Grant and Stephen Boyd.
 + [Variables](http://cvxr.com/cvx/doc/basics.html) can be real or complex scalars, vectors, matrices, or n-dimensional arrays.
