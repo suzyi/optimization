@@ -18,10 +18,10 @@ The following contents can be found in [keras-optimizers](https://keras.io/optim
 ## 2 - code and programming
 + How to numerically compute derivatives?
 ## 3 - Optimization framework
-### CVXOPT
+### 3 - 1 - CVXOPT
 + [CVXOPT](http://cvxopt.org/) is a free software package for convex optimization based on the Python programming language, developed by Martin Andersen, Joachim Dahl, and Lieven Vandenberghe.
 + [variables](http://cvxopt.org/userguide/modeling.html#variables)- It seems like variables can only be vector variable, from official guide.
-### CVXPY
+### 3 - 2 - CVXPY
 #### intro to cvxpy
 + [CVXPY](http://www.cvxpy.org/) is a Python-embedded modeling language for convex optimization problems, Steven Diamond, Eric Chu, Akshay Agrawal and Stephen Boyd.
 + [Github for cvxpy](https://github.com/cvxgrp/cvxpy)
@@ -33,11 +33,11 @@ The following contents can be found in [keras-optimizers](https://keras.io/optim
 + Step 1 - You'd better have cvxpy installed in a virtual environment.
 + Step 2 - You need to have `numpy` and `scipy` in stalled in your virtual environment in advance.
 + Step 3 - `pip install cvxpy`
-### CVX
+### 3 - 3 - CVX
 + [CVX](http://cvxr.com/cvx/) is a Matlab-based modeling system for convex optimization, developed by Michael Grant and Stephen Boyd.
 + [Variables](http://cvxr.com/cvx/doc/basics.html) can be real or complex scalars, vectors, matrices, or n-dimensional arrays.
 + must follow [DCP rules](http://cvxr.com/cvx/doc/dcp.html).
 + [Geometric programmings](http://cvxr.com/cvx/doc/gp.html) are special mathematical programs that can be converted to convex form using a change of variables. The convex form of GPs can be expressed as DCPs, but CVX also provides a special mode that allows a GP to be specified in its native form. CVX will automatically perform the necessary conversion, compute a numerical solution, and translate the results back to the original problem.
-### openopt
+### 3 - 4 - openopt
 + [Openopt](http://openopt.org) solves general (smooth and nonsmooth) nonlinear programs, including problems with integer constraints. Unlike CVXOPT, it has no software for solving semidefinite programs. The solvers were all written by Dmitrey Kroshko himself and don't have a long history, so testing was probably limited. OpenOpt itself does _not- interface to general third party solvers.
 + [Github for openopt](https://github.com/troyshu/openopt)
