@@ -16,6 +16,10 @@ Deep learning models are typically trained by a stochastic gradient descent opti
 + [Adam-2014](https://arxiv.org/abs/1412.6980) and [its convergence-2018](https://openreview.net/forum?id=ryQu7f-RZ), have been cited by 11125 and 31, respectively.
 ### Adamax
 ### Nadam
+### 1 - 1 - convex optimization
+### 1 - 2 - non-convex optimization
++ paper `Two-Player Games for Efficient Non-Convex Constrained Optimization`
++ The convex-concave procedure [(CCCP)](https://papers.nips.cc/paper/2125-the-concave-convex-procedure-cccp.pdf)
 ## 2 - code and programming
 + How to numerically compute derivatives?
 ## 3 - Optimization framework
