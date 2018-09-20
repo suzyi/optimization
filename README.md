@@ -51,3 +51,4 @@ Deep learning models are typically trained by a stochastic gradient descent opti
 ### an constrained (simple linear constraints) optimization problem
 This problem [(notebook)](https://github.com/suzyi/optimization/blob/master/notebook/constrainedOpt.ipynb) appears at the inverse process of a relu DNN.
 ### try to write a package like `Autograd`, using python
+this package should have the function of automatic differentiation.
