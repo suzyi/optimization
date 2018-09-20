@@ -46,3 +46,7 @@ Deep learning models are typically trained by a stochastic gradient descent opti
 ### 3 - 4 - openopt
 + [Openopt](http://openopt.org) solves general (smooth and nonsmooth) nonlinear programs, including problems with integer constraints. Unlike CVXOPT, it has no software for solving semidefinite programs. The solvers were all written by Dmitrey Kroshko himself and don't have a long history, so testing was probably limited. OpenOpt itself does _not- interface to general third party solvers.
 + [Github for openopt](https://github.com/troyshu/openopt)
+
+## examples
+### an constrained (simple linear constraints) optimization problem
+This problem [(notebook)](https://github.com/suzyi/optimization/blob/master/notebook/constrainedOpt.ipynb) appears at the inverse process of a relu DNN. 
