@@ -3,6 +3,7 @@ Intro to numerical optimization method: papers recommendation and code implement
 The following contents can be found in [keras-optimizers](https://keras.io/optimizers/#sgd)
 ## 1 - Theory
 Deep learning models are typically trained by a stochastic gradient descent optimizer. There are many variations of stochastic gradient descent: Adam, RMSProp, Adagrad, etc. For an understanding intro to these algorithm, see [here](https://papers.nips.cc/paper/19-optimization-with-artificial-neural-network-systems-a-mapping-principle-and-a-comparison-to-gradient-based-methods.pdf). All of them let you set the learning rate. This parameter tells the optimizer how far to move the weights in the direction of the gradient for a mini-batch. If the learning rate is low, then training is more reliable, but optimization will take a lot of time because steps towards the minimum of the loss function are tiny. If the learning rate is high, then training may not converge or even diverge. Weight changes can be so big that the optimizer overshoots the minimum and makes the loss worse. The training should start from a relatively large learning rate because, in the beginning, random weights are far from optimal, and then the learning rate can decrease during training to allow more fine-grained weight updates.
+## general optimzation method
 ### SGD
 + paper - ""
 ### RMSprop
@@ -16,6 +17,8 @@ Deep learning models are typically trained by a stochastic gradient descent opti
 + [Adam-2014](https://arxiv.org/abs/1412.6980) and [its convergence-2018](https://openreview.net/forum?id=ryQu7f-RZ), have been cited by 11125 and 31, respectively.
 ### Adamax
 ### Nadam
+## convex optimization method
+Here we list several mature optimization provided by cvxpy, solvers such as ECOS, OSQP, SCS and their link can be found [here](https://www.cvxpy.org/tutorial/advanced/index.html). Especially, SCS can be used to solve non-negative matrix factorization problem.
 ### 1 - 1 - convex optimization
 ### 1 - 2 - non-convex optimization
 + paper `Two-Player Games for Efficient Non-Convex Constrained Optimization`
