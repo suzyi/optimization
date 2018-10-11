@@ -19,6 +19,11 @@ Deep learning models are typically trained by a stochastic gradient descent opti
 ### Nadam
 ## convex optimization method
 Here we list several mature optimization provided by cvxpy, solvers such as ECOS, OSQP, SCS and their link can be found [here](https://www.cvxpy.org/tutorial/advanced/index.html). Especially, SCS can be used to solve non-negative matrix factorization problem.
++ ADMM
+### problems that are well solved in convex framework
+#### Second-oder cone programming (SOCP)
++ Problems that can be trasferred as SOCP. For more details, see Boyd's paper "Applications of second-Order cone
+programming".
 ### 1 - 1 - convex optimization
 ### 1 - 2 - non-convex optimization
 + paper `Two-Player Games for Efficient Non-Convex Constrained Optimization`
