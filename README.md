@@ -56,7 +56,7 @@ programming".
 + [Github for openopt](https://github.com/troyshu/openopt)
 ### Gurobi
 + [Gurobi](http://www.gurobi.com/) is an optimization software. According to [wikipedia](https://en.wikipedia.org/wiki/Gurobi), it supports both python and matlab mainly for solving Linear Programming (LP), Quadratic Programming (QP), Quadratically constrained Programming (QCP), mixed integer linear programming (MILP), mixed-integer quadratic programming (MIQP), and mixed-integer quadratically constrained programming (MIQCP).
-
++ [yalmip](https://yalmip.github.io/)
 ## examples
 ### an constrained (simple linear constraints) optimization problem
 This problem [(notebook)](https://github.com/suzyi/optimization/blob/master/notebook/constrainedOpt.ipynb) appears at the inverse process of a relu DNN.
