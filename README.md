@@ -54,6 +54,8 @@ programming".
 ### 3 - 4 - openopt
 + [Openopt](http://openopt.org) solves general (smooth and nonsmooth) nonlinear programs, including problems with integer constraints. Unlike CVXOPT, it has no software for solving semidefinite programs. The solvers were all written by Dmitrey Kroshko himself and don't have a long history, so testing was probably limited. OpenOpt itself does _not- interface to general third party solvers.
 + [Github for openopt](https://github.com/troyshu/openopt)
+### Gurobi
++ [Gurobi](http://www.gurobi.com/) is an optimization software. According to [wikipedia](https://en.wikipedia.org/wiki/Gurobi), it supports both python and matlab mainly for solving Linear Programming (LP), Quadratic Programming (QP), Quadratically constrained Programming (QCP), mixed integer linear programming (MILP), mixed-integer quadratic programming (MIQP), and mixed-integer quadratically constrained programming (MIQCP).
 
 ## examples
 ### an constrained (simple linear constraints) optimization problem
