@@ -62,3 +62,9 @@ programming".
 This problem [(notebook)](https://github.com/suzyi/optimization/blob/master/notebook/constrainedOpt.ipynb) appears at the inverse process of a relu DNN.
 ### try to write a package like `Autograd`, using python
 this package should have the function of automatic differentiation.
+## Distributed Optimization
+Distributed Optimization is also known as decentralized optimization.
+
+Paper recommendations:
++ Optimal Algorithms for Non-Smooth Distributed Optimization in Networks. Kevin Scaman, Francis Bach. And references therein.
++ Distributed optimization and statistical learning via the alternating direction method of multipliers. Stephen Boyd, Neal Parikh, Eric Chu and etc.
